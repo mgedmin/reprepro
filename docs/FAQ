@@ -37,7 +37,7 @@ You are facing the choice:
 Reprepro uses Debian's way to organize the pool hierarchy, which means
 that the directory and name a file is saved under is only determined by
 its sourcename, its name and its version and especially not by the
-distribution it belongs to. (This is the intend of having a pool directory,
+distribution it belongs to. (This is the intent of having a pool directory,
 so that if two distributions have the same version, the disk space is only
 used once). This means that if different versions of a packaged having the
 same version string are put in the same reprepro repository (even if put
@@ -56,7 +56,7 @@ same version, so they have to be the same, apt and dpkg will think).
 How to deal with this without separating repositories depends on how
 you reached this situation:
 
-- in the past Debian's stable and stable-security buildds sometimes both
+- in the past Debian's stable and stable-security builds sometimes both
   built a package and for some architectures the one version entered
   security.debian.org and the other ftp.debian.org with the next
   point release. (This should be fixed now. And it is always considered

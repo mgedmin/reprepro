@@ -4286,7 +4286,7 @@ static void handle_option(int c, const char *argument) {
 "     --dbdir <dir>:                 Directory to place the database in.\n"
 "     --listdir <dir>:               Directory to place downloaded lists in.\n"
 "     --confdir <dir>:               Directory to search configuration in.\n"
-"     --logdir <dir>:                Directory to put requeted log files in.\n"
+"     --logdir <dir>:                Directory to put requested log files in.\n"
 "     --methodir <dir>:              Use instead of /usr/lib/apt/methods/\n"
 " -S, --section <section>:           Force include* to set section.\n"
 " -P, --priority <priority>:         Force include* to set priority.\n"
